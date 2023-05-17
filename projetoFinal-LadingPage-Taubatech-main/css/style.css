@@ -643,8 +643,7 @@ header .container {
 .contact-left .list {
   display: flex;
   flex-direction: column;
-  width: 592px;
-  height: 104px;
+
 }
 
 .list ul li {
@@ -1141,7 +1140,7 @@ footer {
 
   .base-button .primary,
   .base-button .secondary {
-    width: 343px;
+    width: 100%;
     height: 48px;
   }
 
@@ -1251,12 +1250,13 @@ footer {
   }
 }
 
-@media (min-width: 320px) and (max-width: 374px) {
+@media (max-width: 374px) {
   .header-top {
     width: 100%;
   }
 
   .header-content {
+    width: 100%;
     padding: 60px;
   }
 
@@ -1271,7 +1271,7 @@ footer {
 
   .base-button .primary,
   .base-button .secondary {
-    width: 300px;
+    width: 100%;
     height: 48px;
   }
 
