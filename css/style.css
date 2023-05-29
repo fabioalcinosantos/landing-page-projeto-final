@@ -9,6 +9,7 @@
   src: url(../fontes/AvertaStd-Bold.ttf);
 }
 
+
 :root {
   --color-greyscale-gray900: #2f3542;
   --color-primary: #2ed573;
@@ -165,6 +166,14 @@ header .container {
   display: flex;
   margin-top: 48px;
   gap: 16px;
+}
+.primary a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.secondary a {
+  text-decoration: none;
+  color: var(--color-primary);
 }
 
 .base-button .primary {
@@ -489,6 +498,18 @@ header .container {
   gap: 24px;
   scroll-snap-type: x;
   overflow-x: auto;
+}
+
+.project-card-footer button a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 24px;
+  transition: all 250ms linear 0s;
 }
 
 .project-card .project-card-container {
