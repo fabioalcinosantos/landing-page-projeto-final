@@ -245,8 +245,8 @@ header .container {
 }
 
 .about .about-photo img {
-  width: 152px;
-  height: 152px;
+  width: 500px;
+  height: 150px;
   border-radius: 50%;
 }
 
