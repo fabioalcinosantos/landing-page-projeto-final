@@ -511,6 +511,9 @@ header .container {
   padding: 24px;
   transition: all 250ms linear 0s;
 }
+.footer-design a {
+  text-decoration: none;
+}
 
 .project-card .project-card-container {
   display: flex;
@@ -1403,4 +1406,5 @@ footer {
   .about-description .description-title .title {
     align-items: center;
   }
+ 
 }
